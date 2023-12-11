@@ -4,59 +4,88 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Light Theme</title>
-<link href="simpleGridTemplate.css" rel="stylesheet" type="text/css">
+<title>Simple Theme</title>
+<link href="multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <header class="header">
-    <h4 class="logo">践行篇：服务社会&nbsp;</h4>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1 class="title"> 生命的思考</h1>
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+        <li>首页&nbsp;</li>
+        <li><a href="../shsm/index.html">守护生命</a>&nbsp;</li>
+        <li><a href="../zqsmdrx/index.html">增强生命的韧性</a>&nbsp;</li>
+        <li><a href="../fwsh/index.html">服务社会&nbsp;</a></li>
+        <li><a href="../yilidairen/index.html">以礼待人</a>&nbsp;</li>
+        <li><select>
+		    <option value="0">关于我们</option>
+				<option value="1">顾语欣</option>
+				<option value="2">黄思芸</option>
+				<option value="3">黄奕</option>
+				<option value="4">娄曼淇</option>
+				<option value="5">王尔涵</option>
+				<option value="6">吴钰</option>
+				<option value="7">庄依诺</option>
+		    </select>  </li>
+            </ul>
+    </nav>
   </header>
-  <!-- Hero Section -->
-  <section class="intro">
-    <div class="column">
-      <h3>授课教师&nbsp;</h3>
-<img src="gyx.jpg" width="141" height="200" alt=""/> </div>
-    <div class="column">
-      <p>顾语欣&nbsp;</p>
-      <p>湖南师范大学马克思主义学院思想政治教育系，主讲教材为初中《道德与法治》。在生命的思考中，主讲了《增强生命的韧性》《服务社会》两篇，涵盖学习篇和践行篇两大块知识体系。授课风格强调交互性，秉持“学生为主体，教师为主导”的教育理念，坚持课堂“问题导向”“成果导向”，注重评价体系健全，以评价结果反馈助推教学设计的撰写。曾获马克思主义学院第二届教学之星比赛三等奖、“最佳板书奖”，思想政治教育模拟实习一等奖等荣誉。&nbsp;</p>
-    </div>
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article">
+      <h3>网站简介</h3>
+      <p>欢迎来到“生命的思考”教学资源中心，这是一个专为初中生设计的道德教育网络平台。我们致力于帮助学生深入思考生命的价值以及在社会中的责任。本网站提供与初中道德法治课程相关的教材、课件、教案等课程资源，以支持教师课堂教学与学生网络学习资源的获取。在课件以及微课视频中 收集生命故事、纪录片等多媒体资料，以生动形象的方式展现生命的多样性和宝贵性。在课堂教学环节中设计有趣的互动学习活动，促使学生参与讨论、分享观点，激发对生命的深入思考。除此之外，本网站还设计了一个最新动态栏目，用于定期更新教育政策以及生命伦理方面的研究成果，确保教师和学生获取最新、最全面的信息。</p>
+    </article>
+    <aside class="right_article"><img src="tp.png" width="350" height="250" alt=""/> </aside>
   </section>
-  <!-- Stats Gallery Section -->
-  <div class="gallery">
-    <div class="thumbnail"> <a href="#">
-    <video width="250" height="200" controls="controls" >
-      <source src="wk.mp4" type="video/mp4">
-    </video>
-    </a>
-      <h4>《服务社会》微课&nbsp;</h4>
-      <p class="text_column">针对于生命的思考，本课程《服务社会》以当下的时政热点——亚运会作为引入，以志愿者的视角来感悟诠释服务社会的意义与措施，激励学生通过参与社会公益等方面的活动以服务社会。</p>
+  <div class="row">
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="aa.png" alt="" class="thumbnail"/> </p>
+      <h4>守护生命</h4>
+      <p>从爱护生命和养护精神两个方面剖析生命的意义，教育学生爱护生命</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="one.jpg" alt="" width="300" height="200" class="cards"/></a>
-      <h4><a href="ja.docx">《服务社会》教案</a>&nbsp;</h4>
-      <p class="text_column">本课程设立问题篇和实践篇，提醒同学们要知行合一，让课堂效果更加深入到学生的所作所为、一言一行。课堂末尾，用一首小诗激励学生积极践行，在生命的深思中领悟与实践于服务社会。</p>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="bb.png" alt="" class="thumbnail"/> </p>
+      <h4>增强生命的韧性</h4>
+      <p>以挫折的普遍性和可克服性教育学生树立乐观心态面对生活的挫折&nbsp;</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="three.png" alt="" width="250" height="350" class="cards"/></a>
-      <h4>&nbsp; &nbsp;&nbsp;</h4>
-      <h4>&nbsp;</h4>
-      <h4><a href="ppt.pptx">《服务社会》PPT&nbsp;</a></h4>
-<p class="text_column">我们跟随小青荷的见闻日记了解小青荷，感受服务社会的意义是可以促进我们全面发展、实现我们的人生价值，讨论怎样成为一名真正的小青荷，打中社会的靶心。</p>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="cc.png" alt="" class="thumbnail"/> </p>
+      <h4>服务社会</h4>
+      <p>以服务社会的意义和做法教育学生立足知行合一原则，将服务社会落到实处</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="two.jpg" alt="" width="300" height="200" class="cards"/></a>
-      <h4>《服务社会》更多学习资源&nbsp;</h4>
-      <p class="text_column">一批小青荷，携来满园香。期待着大家今后服务社会的故事可以在无形中变成一封封书信，寄到他人的心灵邮箱，温暖、感染更多身边的人，那么这样我们的世界才会更加的美好。</p>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="dd.png" alt="" class="thumbnail"/> </p>
+      <h4>以礼待人</h4>
+      <p>以个人和国家的视角阐述了“礼”的重要性，给予学生“以礼待人”的深刻思考&nbsp;</p>
     </div>
   </div>
-<!-- Footer Section -->
-  <footer id="contact">
-    <p class="hero_header">如果您有宝贵的意见和建议欢迎联系我们！&nbsp;</p>
-    <div class="button">意见箱&nbsp; </div>
+  <div class="row blockDisplay">
+    <div class="column_half left_half">
+      <h2 class="column_title">守望者，关注下一代的优质教育</h2>
+    </div>
+    <div class="column_half right_half">
+      <h2 class="column_title">1796422627@qq.com</h2>
+    </div>
+  </div>
+  <div class="social">
+    <p class="social_icon"><img src="ren.jpg" width="130" alt="" class="thumbnail"/></p>
+    <p class="social_icon"><img src="ai.jpg" width="108" alt="" class="thumbnail"/></p>
+    <p class="social_icon"><img src="jing.jpg" width="125" alt="" class="thumbnail"/></p>
+    <p class="social_icon"><img src="qin.jpg" width="134" alt="" class="thumbnail"/></p>
+  </div>
+  <footer class="secondary_header footer">
+    <div class="copyright">版权所属：教育田野守望者</div>
   </footer>
-  <!-- Copyrights Section -->
-  <div class="copyright">版权所属：教育田野守望者</div>
 </div>
-<!-- Main Container Ends -->
 </body>
 </html>
